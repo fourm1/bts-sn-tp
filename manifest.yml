@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+host: bts-sn-tp
+name: bts-sn-tp
+memory: 128M
+stack: cflinuxfs2
